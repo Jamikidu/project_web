@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표에 캡션(표 제목) 넣기</title>
+    <style>
+        table{
+            border: 2px solid #222222;
+            border-collapse: collapse;
+            width: 300px;
+            text-align: center;
+        }
+        td{
+            border: 1px dotted #222;
+            padding: 15px;
+            /* height: 40px; */
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption style="color: blueviolet;">프로축구 경기 일정</caption>
+        <tr>
+            <td>울산</td>
+            <td>울산 vs 인천</td>
+        </tr>
+        <tr>
+            <td rowspan="2">부산</td>
+            <td>부산 vs 대전</td>
+        </tr>
+        <tr>
+            <td>부산 vs 강원</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding: 20px;"><b>많은 관심 부탁드립니다</b></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
