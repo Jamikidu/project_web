@@ -1,0 +1,32 @@
+#wrap{
+    width: 640px;
+    margin: 0 auto;
+}
+#check{
+    border: 1px solid #ccc;
+}
+h1{
+    font-size: 16px;
+    background: #000;
+    color: #fff;
+    margin: 0; /* 기본 16px을 0px로 수정함 */
+
+}
+h2{
+    color: #f00;
+    text-align: center;
+    font-size: 22px;
+}
+p{
+    text-align: center;
+    line-height: 2;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.smalltext{
+    text-align: center;
+    font-size: 0.7em;
+}
+.excent{
+    color: #00f;
+}
