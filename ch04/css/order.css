@@ -1,0 +1,23 @@
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+form{
+    width: 600px;
+    margin: 0 auto;
+}
+fieldset{
+    margin-bottom: 20px;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.button input{
+    margin: 0px 2px;
+    padding: 5px;
+    cursor: pointer;
+}

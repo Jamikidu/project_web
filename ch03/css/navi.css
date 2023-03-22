@@ -21,6 +21,9 @@ a{
 li:hover{
     background-color: #ccc;
 }
+a:hover{
+    color: red;
+}
 section{
     padding-left: 100px;
 }
