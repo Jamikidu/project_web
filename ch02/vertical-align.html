@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수직 정렬</title>
+    <style>
+        table{
+            height: 300px;
+        }
+        td{
+            border: 1px solid #000;
+            padding: 20px;
+            text-align: center;
+        }
+        /* 수직 정렬 : 위 */
+        .v1{vertical-align: top;}
+        /* 수직 정렬 : 가운데 */
+        .v2{vertical-align: middle;}
+        /* 수직 정렬 : 바닥 */
+        .v3{vertical-align:bottom;}
+    </style>
+</head>
+<body>
+    <table>
+        <caption>vertical-alignment</caption>
+        <tr>
+            <td class="v1">alignment</td>
+            <td class="v2">alignment</td>
+            <td class="v3">alignment</td>
+        </tr>
+        <tr style="font-size: 1.5em; font-weight: bold;">
+            <td colspan="3">셀 병합</td>
+        </tr>
+    </table>
+</body>
+</html>
