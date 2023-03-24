@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position 속성</title>
+    <style>
+        #wrap{
+            width: 300px;
+            height: 300px;
+            border: 1px solid #ccc;
+            /* 부모 요소로 기준 정함 */
+            position: relative;
+        }
+        .box{
+            width: 50px;
+            height: 50px;
+            background: skyblue;
+            position: absolute;
+        }
+        .cod1{
+            top: 0px;
+            left: 0px;
+        }
+        .cod2{
+            top: 0px;
+            right: 0px;
+        }
+        .cod3{
+            top: 100px;
+            left: 100px;
+        }
+        .cod4{
+            bottom: 0px;
+            left: 0px;
+        }
+        .cod5{
+            bottom: 0px;
+            right: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="box cod1">가</div>
+        <div class="box cod2">나</div>
+        <div class="box cod3">다</div>
+        <div class="box cod4">라</div>
+        <div class="box cod5">마</div>
+    </div>
+</body>
+</html>

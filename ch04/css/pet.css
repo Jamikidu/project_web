@@ -15,11 +15,12 @@ header #logo{
     float: left;
     line-height: 80px;
 }
-header h1{
+header h1 a{
     color: #fff;
     padding-left: 20px;
+    text-decoration: none;
 }
-header .logo_a:hover{
+header #logo a:hover{
     color: yellowgreen;
 }
 header nav{
@@ -36,13 +37,13 @@ nav ul li{
     float: right;
     
 }
-a{
+ul li a{
     display: block;
     padding: 0px 20px;
     color: #fff;
     text-decoration: none;
 }
-a:hover{
+nav ul li a:hover{
     background-color: #2fb2fb;
     color: #fff;
 }

@@ -1,0 +1,152 @@
+/* 전체스타일 */
+*{margin: 0; padding: 0;}
+/* 16:9 화면상 1600px로 설정 */
+#container{
+    width: 100% auto;
+    margin: 0 auto;
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/* header 영역 스타일 */
+header{
+    height: 80px;
+    background: darkorange;
+}
+header #logo{
+    width: 300px;
+    float: left;
+    line-height: 80px;
+    padding-left: 30px;
+}
+#logo h1 a{
+    color: yellowgreen;
+    text-decoration: none;
+}
+nav{
+    width: 800px;
+    line-height: 80px;
+    float: right;
+    text-align: right;
+    margin-right: 150px;
+}
+nav #topMenu{
+    list-style: none;
+}
+nav #topMenu li{
+    display: inline-block;
+    padding: 0 20px;
+}
+nav #topMenu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+nav #topMenu a:hover{
+    color: aqua;
+}
+/* main 영역 스타일 */
+#contents section{
+    margin: 30px 10px;
+}
+section div{
+    margin: 10px;
+}
+section p{
+    line-height: 2;
+}
+/* section의 높이를 지정해야 함 */
+#healing, #activity{height: 300px;}
+#healing img, #activity img{
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.schedule h3{margin-top: 20px;}
+.schedule ul li{
+    list-style: none;
+    margin: 10px;
+}
+#sightseeing ul li{
+    list-style: square;
+    margin: 10px 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: blue;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+/* footer 영역 스타일 */
+footer{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    border-top: 2px solid #444;
+}
+footer #bottomMenu{
+    list-style: none;
+    padding: 20px;
+}
+#bottomMenu li{
+    display: inline-block;
+    margin: 0px;
+    border-right: 1px solid #444;
+    padding: 0px 10px;
+}
+#bottomMenu li a{
+    text-decoration: none;
+    color: #444;
+}
+#bottomMenu2{
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+}
+/* #bottomMenu li:last-child{border: none;} */
+#bottomMenu li:nth-child(4){border: none;}
+
+/* product 스타일 */
+#product p{line-height: 2;}
+#product h2{margin-bottom: 10px;}
+#description{
+    width: 800px;
+    margin: 30px auto;
+    padding: 20px 60px;
+    border: 1px dotted #444;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#description img{
+    margin: 0px 10px 10px 10px;
+    border-radius: 10px;
+}
+#receipe{
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 60px;
+    border: 1px dotted #444;
+}
+#receipe ol{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+#receipe ol li{
+    line-height: 1.7;
+}
+#package{
+    width: 800px;
+    margin: 30px auto;
+    padding: 20px 60px;
+    border: 1px dotted #444;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#package table, th, td{
+    border: 1px solid #444;
+    border-collapse: collapse;
+    padding: 10px 20px;
+}
