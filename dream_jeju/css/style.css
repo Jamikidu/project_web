@@ -1,4 +1,5 @@
 /* 전체스타일 */
+  @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap');
 *{margin: 0; padding: 0;}
 /* 16:9 화면상 1600px로 설정 */
 #container{
@@ -22,8 +23,9 @@ header #logo{
     padding-left: 30px;
 }
 #logo h1 a{
-    color: yellowgreen;
+    color: rgb(181, 254, 35);
     text-decoration: none;
+    font-family: Merienda;
 }
 nav{
     width: 800px;
@@ -150,3 +152,50 @@ footer #bottomMenu{
     border-collapse: collapse;
     padding: 10px 20px;
 }
+
+/* q & a 스타일 */
+#board section h2{
+    margin: 30px 10px;
+    text-align: center;
+}
+#tbl_board{
+    border: 2px solid #0f0;
+    border-collapse: collapse;
+    width: 700px;
+    margin: 0px auto 20px;
+    /* text-align: center; */
+}
+#tbl_board thead{
+    background-color: beige;
+}
+#tbl_board td:nth-child(1), td:nth-child(3), td:nth-child(4){
+    text-align: center;
+}
+/* ↓ 랑 같은말 #tbl_board td:nth-child(1){width: 50px;} */
+#tbl_board td:first-child{width: 50px;}
+.btn{
+    text-align: right;
+    margin-right: 250px;
+}
+.btn button{
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+/* about Me 스타일 */
+#profile section{margin: 30px 10px;}
+#profile section h2{margin: 10px; color: cadetblue;}
+#profile section div{margin: 20px 10px 40px 10px;}
+#intro h2{margin: 30px 10px; text-align: center; font-size: 40px;}
+#intro h3{margin: 10px 20px;}
+div .me{
+    width: 800px;
+}
+div img{
+    float: left;
+    margin: 20px;
+    border-radius: 5px;
+}
+.me p{
+    line-height: 3;
+}
+.me a{line-height: 3; margin: 20px;}
