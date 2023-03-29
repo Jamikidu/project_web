@@ -8,7 +8,7 @@
 }
 main{
     width: 1200px;
-    margin: 0 auto;
+    margin: 30px auto;
     box-sizing: border-box;
 }
 /* header 영역 스타일 */
@@ -159,7 +159,7 @@ footer #bottomMenu{
     text-align: center;
 }
 #tbl_board{
-    border: 2px solid #0f0;
+    border: 2px solid #ccc;
     border-collapse: collapse;
     width: 700px;
     margin: 0px auto 20px;
@@ -180,13 +180,14 @@ footer #bottomMenu{
 .btn button{
     padding: 10px 15px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 /* about Me 스타일 */
 #profile section{margin: 30px 10px;}
 #profile section h2{margin: 10px; color: cadetblue;}
 #profile section div{margin: 20px 10px 40px 10px;}
 #intro h2{padding: 0px 30px 10px; font-size: 2em;}
-#intro .name{text-decoration: underline; font-size: 1.3em; color: blue;}
+#intro .name{font-size: 1.3em; color: blue; letter-spacing: 3px;}
 #profile h3{
     margin: 10px 0px;
     padding-bottom: 20px;
@@ -203,7 +204,7 @@ div img{
 #career .car1{width: 700px;}
 #career ul li{
     list-style: square;
-    line-height: 2em;
+    line-height: 3em;
     margin-left: 20px;
     position: relative;
 }
@@ -221,3 +222,17 @@ div img{
     height: 170px;
     padding-left: -200px;
 }
+
+/* 게시판 글쓰기 */
+#register section h2{margin: 30px 10px; text-align: center;}
+#tbl_write{
+        margin: 0 auto;
+        border: 2px solid #ccc;
+        border-collapse: collapse;
+        width: 700px;
+        margin: 0px auto 100px;}
+#tbl_write input[type="text"]{width: 650px; height: 25px; padding: 5px;}
+#tbl_write textarea{padding: 5px; width: 650px;}
+/* #tbl_write td{border: 2px solid #ccc; text-align: center;} */
+#tbl_write tr:last-child{padding: 10px 15px; text-align: center;}
+#tbl_write input[type="submit"], input[type="reset"]{padding: 10px 15px;}
