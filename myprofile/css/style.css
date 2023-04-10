@@ -32,7 +32,7 @@ nav #topMenu li a:hover{color: goldenrod;}
 #main1{width: 100%; height: 260px;}
 #profile h2{
     text-align: center;
-    margin: 25px;
+    margin: 25px 0 0 0;
     font-size: 1.7em;
 
     animation: show 2s ease-in-out;
@@ -69,7 +69,7 @@ nav #topMenu li a:hover{color: goldenrod;}
     color: cornflowerblue;
     font-weight: 600;
 }
-.me .time:hover{color: crimson;}
+.me .time #now:hover{color: crimson;}
 .car1 ul li{
     list-style: none;
     line-height: 2.5;
@@ -112,7 +112,12 @@ nav #topMenu li a:hover{color: goldenrod;}
     header{height: 360px;}
     #main1{height: 300px;}
     section{height: 360px;}
-    #intro, #career{float: left; width: 50%; background-color: rgb(232, 248, 254);}
+    #intro, #career{
+        float: left;
+        width: 50%;
+        background-color: rgb(232, 248, 254);
+        margin-top: 25px;
+    }
     #academy{clear: both;}
     #academy .map1{
         display: block;
@@ -131,6 +136,7 @@ nav #topMenu li a:hover{color: goldenrod;}
     #logo h1{margin-left: 80px;}
     header{height: 400px;}
     #main1{height: 340px;}
+    #intro{margin-top: 0px;}
     #intro, #career, #academy,footer{width: 100%; padding: 10px 10%;}
     #intro{background-color: white;}
     .me .pic1{display: block; float: left; margin-right: 150px;}
