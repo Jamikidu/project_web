@@ -1,0 +1,143 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+/* 스마트폰 기준 시작 */
+#container{width: 100%;}
+header{width: 100%; height: 320px; }
+header nav{background-color: rgb(51, 48, 127);}
+#logo h1{
+    line-height: 60px;
+    float: left;
+    margin-left: 20px;
+}
+#logo h1 a{
+    color: rgb(228, 254, 35);
+    text-decoration: none;
+}
+nav #topMenu{
+    text-align: right;
+    margin-right: 30px;
+}
+nav #topMenu li{
+    list-style: none;
+    display: inline-block;
+    line-height: 60px;
+    
+}
+nav #topMenu li a{
+    text-decoration: none;
+    padding: 0 15px;
+    color: #fff;
+    font-weight: bold;
+}
+nav #topMenu li a:hover{color: goldenrod;}
+#main1{width: 100%; height: 260px;}
+#profile h2{
+    text-align: center;
+    margin: 25px;
+    font-size: 1.7em;
+
+    animation: show 2s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes show{
+    from{
+        opacity: 0.2; /* 투명 */
+    }
+    to{
+        text-shadow: 4px 4px lightblue;
+        opacity: 1; /* 불투명 */
+    }
+}
+#intro h3, #career h3, #academy h3{
+    border-bottom: 3px solid lightblue;
+    padding: 15px;
+    margin: 10px 20px 0px;
+    color: #666;
+    font-size: 1.4em;
+}
+.me .pic1, .car1 .pic2, .road1 .map1{
+    /* margin: 0 20px 20px 40px;
+    float: left; */
+    display: none;
+    
+}
+.me{line-height: 2.5; margin: 30px 40px;}
+.road1{line-height: 2.5; margin: 30px 40px; font-size: 19px;}
+/* .me a{line-height: 1.5;} */
+.me .time{
+    text-decoration: underline;
+    color: cornflowerblue;
+    font-weight: 600;
+}
+.me .time:hover{color: crimson;}
+.car1 ul li{
+    list-style: none;
+    line-height: 2.5;
+    margin: 0 40px;
+}
+.car1 ul li:first-child{
+    color: coral;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: underline;
+}
+/* #academy .road1 #map1{
+    width: 300px;
+    height: 300px;
+    float: left;
+    display: none;
+} */
+#bottomMenu{
+    /* width: 100%;  */
+    text-align: center;
+    border-top: 3px double #000;
+    margin: 10px 20px 0px;
+}
+#bottomMenu li{
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 15px;
+    border-bottom: 2px solid #ccc;
+    margin: 30px 10px;
+}
+#bottomMenu li a{text-decoration: none; color: rgb(51, 48, 127);}
+#bottomMenu li a:hover{color: goldenrod;}
+/* 스마트폰 기준 종료 */
+
+/* 태블릿 기준 시작 */
+@media screen and (min-width: 780px) {
+    #logo h1{margin-left: 50px;}
+    header{height: 360px;}
+    #main1{height: 300px;}
+    section{height: 360px;}
+    #intro, #career{float: left; width: 50%; background-color: rgb(232, 248, 254);}
+    #academy{clear: both;}
+    #academy .map1{
+        display: block;
+        float: left;
+        width: 250px;
+        height: 250px;
+        margin-right: 40px;
+    }
+    .road1 .p1{padding-top: 50px;}
+}
+/* 태블릿 기준 종료 */
+
+/* PC 기준 시작 */
+@media screen and (min-width: 1200px) {
+    #container{width: 90%; margin: 0 auto;}
+    #logo h1{margin-left: 80px;}
+    header{height: 400px;}
+    #main1{height: 340px;}
+    #intro, #career, #academy,footer{width: 100%; padding: 10px 10%;}
+    #intro{background-color: white;}
+    .me .pic1{display: block; float: left; margin-right: 150px;}
+    .car1 .pic2{
+        display: block;
+        float: right;
+        margin: 30px 25px;
+        width: 325px;
+    }
+}

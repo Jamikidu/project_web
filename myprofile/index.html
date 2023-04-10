@@ -4,65 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>자기소개</title>
+    <title>About me</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js"></script>
 </head>
 <body>
     <div id="container">
         <header>
              <!-- 로고 -->
              <div id="logo">
-                <h1><a href="./index.html">Dream Jeju</a></h1>
+                <h1><a href="./index.html">About me</a></h1>
             </div>
             <!-- 상단메뉴 -->
             <nav>
                 <ul id="topMenu">
-                    <li><a href="./index.html">제주 여행</a></li>
-                    <li><a href="./product.html">레드향 소개</a></li>
+                    <li><a href="./index.html">개발자 소개</a></li>
                     <li><a href="./qna.html">질문&답변</a></li>
-                    <li><a href="./about_me.html">About me</a></li>
                 </ul>
             </nav>
+            <img src="./images/header1.jpg" alt="배경1" id="main1">
         </header>
         <main id="profile">
+            <h2><em>백엔드 개발자</em>&nbsp <span class="name">강&nbsp정&nbsp현</span> 입니다.</h2>
             <section id="intro">
-            <h2>성실하게 임하는 <em>백엔드 개발자</em>&nbsp <span class="name">강&nbsp정&nbsp현</span>입니다.</h2>
-            <h3>About me</h3>
+            <h3>소개합니다</h3>
             <div class="me">
-                <img src="./images/bear.jpg" alt="곰인형">
-                    <br>
+                <img src="./images/bear.jpg" alt="곰인형" class="pic1">
                     <p> - 사는 곳 : 서울시 강남구 논현동<br>
                         - 하는 일 : HTML, 파이썬, 자바 및 백엔드 개발</p>
-                    <br>
                     <small><a href="https://github.com/Jamikidu">깃허브 - 
                         https://github.com/Jamikidu</a></small><br>
                     <small><a href="https://www.google.co.kr/">이메일 - 
                         kangjh1994@gmail.com</a></small>
-                    
+                    <p class="time">Current Time : <span id="now"></span></p>
             </div>
             </section>
             <section id="career">
                 <h3>Career</h3>
                 <div class="car1">
-                    <img src="./images/programmer.png">
+                    <img src="./images/programmer.png" alt="개발자사진" class="pic2">
                     <!-- <div id="img1">
 
                     </div> -->
+                    <br>
                     <ul>
-                        <li><big>(현) 그린컴퓨터 백엔드 자바과정 수료중</big></li>
+                        <li>(현) 그린컴퓨터 백엔드 자바과정 수료중</li>
                         <li>(전) 강일고등학교 졸업</li>
                         <li>(전) 고덕중학교 졸업</li>
                         <li>(전) 강덕초등학교 졸업</li>
                     </ul>
                 </div>
             </section>
+            <section id="academy">
+                <h3>찾아오는길</h3>
+                <div class="road1">
+                    <img src="./images/map1.JPG" alt="지도" class="map1">
+                    <p class="p1">서울 강남구 테헤란로5길 24</p>
+                    <p>2호선 / 강남역 11번, 12번 출구, 약 200m</p>
+                </div>
+            </section>
         </main>
         <footer>
             <ul id="bottomMenu">
-                <li><a href="#">회사 소개</a></li>
-                <li><a href="#">개인정보 처리방침</a></li>
-                <li><a href="#">여행 약관</a></li>
-                <li><a href="#">사이트맵</a></li>
+                <li><a href="#">해야 할 일</a></li>
+                <li><a href="#">자격정보</a></li>
+                <li><a href="#">T.M.I</a></li>
             </ul>
             
         </footer>
