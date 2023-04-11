@@ -139,11 +139,12 @@ nav #topMenu li a:hover{color: goldenrod;}
     #intro{margin-top: 0px;}
     #intro, #career, #academy,footer{width: 100%; padding: 10px 10%;}
     #intro{background-color: white;}
-    .me .pic1{display: block; float: left; margin-right: 150px;}
+    .me .pic1{display: block; float: left; margin-right: 150px; border-radius: 10px;}
     .car1 .pic2{
         display: block;
         float: right;
-        margin: 30px 25px;
+        margin: 20px 25px;
         width: 325px;
+        border-radius: 10px;
     }
 }
