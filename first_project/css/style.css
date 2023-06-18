@@ -19,4 +19,4 @@ header{height: 120px;}
 .mainhead .menu nav li a{text-decoration: none; color: #000; padding: 29px 15px;}
 .mainhead .menu nav a:hover{color: blueviolet; border-bottom: solid 3px blueviolet;}
 .main_pic {width: 100%; text-align: center;}
-.main_pic img{width: 85%; height: 650px; margin-top: 10px;}
+.main_pic img{width: 85%; height: 650px; margin-top: 3px;}
