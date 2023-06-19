@@ -9,8 +9,8 @@ let imgIdx = 0;
 changePicture();
 
 function changePicture(){
-    let img = document.getElementById("pic")
-    document.getElementById("pic").src = picture[imgIdx];
+    let img = document.getElementById("pic1")
+    document.getElementById("pic1").src = picture[imgIdx];
     imgIdx++;
 
     if(imgIdx == picture.length){
