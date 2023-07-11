@@ -38,6 +38,7 @@ footer{height: 80px; border-top: 2px solid #222;}
 #bottom-menu li a{text-decoration: none; color: #444;}
 #bottom-menu li:last-child{border: none;}
 
+/* 태블릿 기준 - 780px 이상 */
 @media screen and (min-width: 780px) {
     header{height: 350px;}
     #main-pic img{height: 290px;}

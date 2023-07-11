@@ -15,6 +15,7 @@ header{height: 120px; box-shadow: 0 3px 4px -1px rgba(0, 0, 0, 0.1);}
 .mainhead .logo a{text-decoration: none; color: rgb(50, 180, 0); font-family: 'Single Day', cursive;
                 }
 .mainhead .logo a:hover{text-decoration: none;}
+.mainhead .menu{font-size: 0;}  /* display 인라인블락 했을때 li사이에 마우스커서 생기는거 없애는 css */
 .mainhead .menu nav li{clear:both; display: inline-block; padding: 0 15px;
                 font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 font-size: 20px;}
